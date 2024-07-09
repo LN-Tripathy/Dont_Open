@@ -37,6 +37,7 @@ const dots = async ()=>{
 
 
 async function Main() {
+    confirm("This link contains virus and malware, do you still want to run...");
     await dots()
     
     for (const items of text) {
